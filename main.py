@@ -7,10 +7,10 @@ import pandas as pd
 import numpy as np
 import gunicorn
 
-popular_df = pickle.load(open('populars.pkl','rb'))
-pt = pickle.load(open('pt.pkl','rb'))
-books = pickle.load(open('booksy.pkl','rb'))
-similarity_score = pickle.load(open('similarity_score.pkl','rb'))
+popular_df = pd.read_pickle(open('populars.pkl','rb'))
+pt = pd.read_pickle(open('pt.pkl','rb'))
+books = pd.read_pickle(open('booksy.pkl','rb'))
+similarity_score = pd.read_pickle(open('similarity_score.pkl','rb'))
 
 
 app=Flask(__name__)
