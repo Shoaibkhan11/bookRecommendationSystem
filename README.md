@@ -9,7 +9,7 @@
 ## Here are some output from the webapp
 ### The Home Page 
 - Which Recommends top 50 books of the dataset with the help of popularity based filtering
-- ![image](https://github.com/Shoaibkhan11/bookRecommendationSystem/assets/54126582/80975bfb-f7e6-4ce0-8630-9827114036e2)
+ ![image](https://github.com/Shoaibkhan11/bookRecommendationSystem/assets/54126582/80975bfb-f7e6-4ce0-8630-9827114036e2)
 
 ### The Recommendation Page
 - This page takes the book title as input and recommend top 4 books you might like
