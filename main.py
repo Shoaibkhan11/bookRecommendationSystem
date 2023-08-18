@@ -9,7 +9,7 @@ import gunicorn
 
 popular_df = pickle.load(open('populars.pkl','rb'))
 pt = pickle.load(open('pt.pkl','rb'))
-books = pickle.load(open('books.pkl','rb'))
+books = pickle.load(open('booksy.pkl','rb'))
 similarity_score = pickle.load(open('similarity_score.pkl','rb'))
 
 
